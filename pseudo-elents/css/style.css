@@ -1,0 +1,104 @@
+body {
+  background-color: #e8e8e8;
+  max-width: 842px;
+  margin: 0px auto;
+}
+.content {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #273d46;
+  padding: 123px 0px;
+  font-size: 20px;
+  line-height: 36px;
+}
+.content-ulli li {
+  /* background: url("../img/check\ icon.gif") left no-repeat; */
+  padding-left: 40px;
+}
+.content-ulli li:first-child {
+  text-decoration: line-through;
+}
+.content-ulli li:nth-child(2) {
+  font-weight: bold;
+}
+.content-ulli li:nth-child(3) {
+  font-style: oblique;
+}
+.content-ulli li:last-child {
+  text-transform: uppercase;
+}
+.button {
+  display: inline-block;
+
+  border: 0px solid #fff;
+  border-radius: 22px;
+  /* width: 19px; */
+
+  background-color: #80b7b3;
+
+  display: inline-block;
+  padding: 0px 24px;
+  margin: 125px 0px;
+}
+.button span {
+  color: #ffffff;
+  letter-spacing: 3px;
+  font-size: 14px;
+  text-transform: uppercase;
+  /* background: url("../img/Arrow.svg") right no-repeat; */
+  padding-right: 30px;
+}
+.img-arrow {
+  padding-top: 12px;
+}
+.input {
+  font-size: 20px;
+  height: 51px;
+  width: 294px;
+  border: 1px solid #afafaf;
+}
+
+.content-ulli li:first-child:hover {
+  text-decoration: none;
+}
+.content-ulli li:nth-child(2):hover {
+  background: url("../img/check\ red.svg.gif") left no-repeat;
+  padding-left: 40px;
+  color: red;
+}
+.content-ulli li:nth-child(3):hover {
+  font-style: normal;
+}
+.content-ulli li:last-child:hover {
+  text-transform: none;
+}
+.button:hover {
+  background-color: #3a5855;
+}
+.button:active {
+  background-color: #818181;
+}
+.input:focus {
+  border: 1px solid #7fbdd5;
+  box-shadow: 0px 0px 10px 6px #bdd7e0;
+}
+li::before {
+  content: " ";
+  background-image: url(" ../img/check icon.gif ");
+  width: 25;
+  height: 19;
+  display: block;
+}
+/* url("../img/Arrow.svg") */
+/* url(" ../img/check icon.gif ") */
+
+.button span::after {
+  content: " ";
+  background-image: url("../img/Arrow.svg");
+}
+.paragr p:first-child::first-line {
+  color: red;
+  text-indent: 40px;
+}
+.paragr p:last-child::first-letter {
+  color: red;
+}
